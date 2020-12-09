@@ -5,7 +5,7 @@ import (
 	"log"
 
 	"github.com/google/go-github/v32/github"
-	"github.com/ldez/ghactions"
+	"github.com/Skyyo/ghactions"
 )
 
 func main() {
