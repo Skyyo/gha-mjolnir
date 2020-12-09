@@ -1,11 +1,5 @@
 # Mjolnir
 
-[![Release](https://img.shields.io/github/release/ldez/gha-mjolnir.svg?style=flat)](https://github.com/ldez/gha-mjolnir/releases)
-[![Build Status](https://github.com/ldez/gha-mjolnir/workflows/Main/badge.svg?branch=master)](https://github.com/ldez/gha-mjolnir/actions)
-[![Docker](https://img.shields.io/badge/Docker-available-blue.svg)](https://hub.docker.com/r/ldez/gha-mjolnir/)
-
-[![Sponsor](https://img.shields.io/badge/Sponsor%20me-%E2%9D%A4%EF%B8%8F-pink)](https://github.com/sponsors/ldez)
-
 Close issues related to the merge of a pull request.
 
 Useful:
@@ -49,7 +43,7 @@ jobs:
 
     steps:
       - name: Closes issues related to a merged pull request.
-        uses: ldez/gha-mjolnir@v1.0.3
+        uses: Skyyo/gha-mjolnir@v1.0.3
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
